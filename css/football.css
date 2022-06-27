@@ -10,6 +10,19 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-img .ball {
-  background-size: auto;
+#img {
+  background-position: right;
 }
+/*.ball {
+  background-image: url(img/ball.img);
+  background-repeat: no-repeat;
+}*/
+
+/*#bg {
+    position:fixed;
+    z-index: -1;
+    top:0;
+    left:0; 
+    min-width:100%;
+    min-height:100%;
+}*/
