@@ -7,6 +7,8 @@ body {
   font-size: 16px;
   font-weight: normal;
 
+  text-align: center;
+
   font-family: "Roboto", sans-serif;
 }
 
@@ -26,3 +28,38 @@ body {
     min-width:100%;
     min-height:100%;
 }*/
+
+/*тінь до тексту*/
+h1 {
+  text-shadow: 1px 2px 3px red;
+}
+
+/*тінь до картинки*/
+#img {
+  box-shadow: 5px 5px 10px aqua, -5px -5px 10px rgb(224, 8, 8);
+  position: relative;
+  width: 700px;
+  height: 300px;
+}
+
+.img1 {
+  transition: all 1s ease;
+}
+.img1:hover {
+  transform: rotate(360deg);
+}
+.img1 {
+  background: red;
+  border-radius: 50%;
+}
+
+ol li {
+  list-style-type: none;
+}
+
+div .center {
+  width: 300 px;
+  height: 300px;
+  text-align: center;
+  margin: -100px;
+}
