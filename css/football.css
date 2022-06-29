@@ -68,6 +68,9 @@ h1 {
 ol li {
   list-style-type: none;
 }
+ul li {
+  list-style-type: none;
+}
 
 .center {
   width: 300 px;
