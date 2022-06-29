@@ -53,8 +53,8 @@ h1 {
   transform-origin: 0 0;
 }
 .img1:hover {
-  transform: rotate(-360deg);
-  /*transform: scale(1.3);*/
+  /*transform: rotate(-360deg)*/
+  transform: scale(1.3);
 }
 .img1 {
   width: 50%;
