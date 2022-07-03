@@ -32,6 +32,10 @@ a:visited {
   box-shadow: 9px -13px 15px rgba(0, 0, 0, 0.25);
 }
 
+.info {
+  margin-bottom: 20px;
+}
+
 .info p {
   color: #86898f;
   margin: 0;
@@ -67,4 +71,53 @@ a:visited {
   padding: 15px 20px;
   margin-bottom: 20px;
   border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+/*стилизация списка*/
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+/*стилизация таблицы*/
+
+.table {
+  width: 100%;
+}
+.table td {
+  padding-bottom: 10px;
+}
+.table td:nth-child(2),
+td:nth-child(3) {
+  color: #86898f;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+/*стилізація форми*/
+.form-group label {
+  display: block;
+  font-size: 15px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
 }
