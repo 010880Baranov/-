@@ -98,3 +98,26 @@ a:visited {
 td:nth-child(3) {
   color: #86898f;
 }
+
+.contact h2 {
+  text-align: center;
+}
+
+/*стилізація форми*/
+.form-group label {
+  display: block;
+  font-size: 15px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
