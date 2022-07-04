@@ -10,99 +10,102 @@
   <body>
     <main>
       <div class="container">
-        <table cellspacing="15">
-          <tr>
-            <td>
-              <img
-                src="/img/Iryna.jpg"
-                width="200"
-                height="300"
-                alt="Ірина Баранова"
-              />
-            </td>
-            <td>
-              <h1>Ірина Баранова</h1>
-              <p>
-                <em>Я вчитель з фізичного виховання</em>
-                <strong>Біляївської гімназії №1</strong> <em>міста Біляївка</em>
-              </p>
-              <p>
-                <em
-                  >Я люблю <strong>подорожувати</strong> та займатися
-                  <strong>спортом</strong>
-                </em>
-              </p>
-            </td>
-          </tr>
-        </table>
+        <div class="info">
+          <img
+            src="/img/Iryna.jpg"
+            width="200"
+            height="300"
+            alt="Ірина Баранова"
+          />
+          <div class="info-text">
+            <h1>Ірина Баранова</h1>
+            <p>
+              <em>Я вчитель з фізичного виховання</em>
+              <strong>Біляївської гімназії №1</strong> <em>міста Біляївка</em>
+            </p>
+            <p>
+              <em
+                >Я люблю <strong>подорожувати</strong> та займатися
+                <strong>спортом</strong>
+              </em>
+            </p>
 
-        <hr />
+            <h2>Мої соціальні мережі</h2>
 
-        <h2>Мої соціальні мережі</h2>
-        <ul>
-          <li>
             <a href="http://instagram.com/Baranova.Iryna" target="_blank"
               >instagram</a
             >
-          </li>
-          <li>
-            <a href="http://t.me/+380971359424" target="_blank">telegram</a>
-          </li>
-        </ul>
-        <hr />
-        <h2>Мої хоббі</h2>
-        <ul>
-          <li>читання книг</li>
-          <li>перегляд фільмів</li>
-          <li>волейбол</li>
-          <li>тренажерний зал</li>
-        </ul>
-        <hr />
-        <h2>Місця навчання та роботи</h2>
-        <table>
-          <tr>
-            <th>Найменування організації</th>
-            <th>Посада</th>
-            <th>Роки навчання або праці</th>
-          </tr>
 
-          <tr>
-            <td>Одеський Державний Аграрний Університет</td>
-            <td>абітурієнт</td>
-            <td>2007-2012</td>
-          </tr>
-          <tr>
-            <td>Управління соціального захисту населення</td>
-            <td>головний спеціаліст</td>
-            <td>2013-2020</td>
-          </tr>
-          <tr>
-            <td>Біляївська гімназія №1 м.Біляївка</td>
-            <td>вчитель</td>
-            <td>2020-по теперішній час</td>
-          </tr>
-        </table>
-        <hr />
-        <h2>Зв'язатись зі мной</h2>
-        <form action="/">
-          <label for="name"> Ваше ім'я:</label>
-          <input type="text" id="name" placeholder="Ввести ім'я" />
-          <br />
-          <label for="email"> Ваш email:</label>
-          <input type="email" id="email" placeholder="Ввести email" />
-          <br />
-          <label for="text">Ваше повідомлення:</label>
-          <textarea
-            name="text"
-            id="text"
-            cols="30"
-            rows="5"
-            placeholder="Ввести повідомлення"
-          ></textarea>
-          <br />
-          <input type="submit" value="Зв'язатись" />
-        </form>
-      </section>
+            <a href="http://t.me/+380971359424" target="_blank">telegram</a>
+          </div>
+        </div>
+
+        <div class="card bg-yellow">
+          <h2>Мої хоббі</h2>
+          <ul class="list">
+            <li>читання книг</li>
+            <li>перегляд фільмів</li>
+            <li>волейбол</li>
+            <li>тренажерний зал</li>
+          </ul>
+        </div>
+
+        <div class="card bg-green">
+          <h2>Місця навчання та роботи</h2>
+          <table class="table">
+            <tr>
+              <th>Найменування організації</th>
+              <th>Посада</th>
+              <th>Роки навчання або праці</th>
+            </tr>
+
+            <tr>
+              <td>Одеський Державний Аграрний Університет</td>
+              <td>абітурієнт</td>
+              <td>2007-2012</td>
+            </tr>
+            <tr>
+              <td>Управління соціального захисту населення</td>
+              <td>головний спеціаліст</td>
+              <td>2013-2020</td>
+            </tr>
+            <tr>
+              <td>Біляївська гімназія №1 м.Біляївка</td>
+              <td>вчитель</td>
+              <td>2020-по теперішній час</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="card bg-red">
+          <div class="contact">
+            <h2>Зв'язатись зі мной</h2>
+            <form action="/">
+              <div class="row">
+                <div class="form-group">
+                  <label for="name"> Ваше ім'я:</label>
+                  <input type="text" id="name" placeholder="Ввести ім'я" />
+                </div>
+                <div class="form-group">
+                  <label for="email"> Ваш email:</label>
+                  <input type="email" id="email" placeholder="Ввести email" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="text">Ваше повідомлення:</label>
+                <textarea
+                  name="text"
+                  id="text"
+                  cols="30"
+                  rows="5"
+                  placeholder="Ввести повідомлення"
+                ></textarea>
+              </div>
+              <input class="btn" type="submit" value="Зв'язатись" />
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
