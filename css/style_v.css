@@ -36,6 +36,13 @@ a:visited {
   margin-bottom: 20px;
 }
 
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
 .info-text {
   margin-left: 40px;
 }
@@ -141,4 +148,17 @@ td:nth-child(3) {
 }
 .row > .form-group:last-child {
   margin-right: 0%;
+}
+
+/*кнопка*/
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #ccc;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
 }
