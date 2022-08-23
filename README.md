@@ -11,3 +11,10 @@
 
 
 ![image](https://user-images.githubusercontent.com/105057212/186114001-aa8dad72-134c-443d-bf9f-bfadc6342f12.png)
+
+
+•	1 Тест 7 по 50
+•	2 Тест Купера
+•	3 Бип тест
+•	4 Спираль
+•	5 Лягушки (жабки)
